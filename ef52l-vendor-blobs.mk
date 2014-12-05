@@ -43,12 +43,15 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/pantech/ef52l/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/pantech/ef52l/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/pantech/ef52l/proprietary/bin/rild:system/bin/rild \
+    vendor/pantech/ef52l/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef52l/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef52l/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/pantech/ef52l/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/pantech/ef52l/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/ef52l/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/pantech/ef52l/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/pantech/ef52l/proprietary/lib/libmercury.so:system/lib/libmercury.so \
@@ -65,9 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/pantech/ef52l/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/pantech/ef52l/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/ef52l/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/pantech/ef52l/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/pantech/ef52l/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/pantech/ef52l/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/pantech/ef52l/proprietary/lib/libVDFaceAPI.so:system/lib/libVDFaceAPI.so \
@@ -77,9 +78,22 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/pantech/ef52l/proprietary/lib/libuca-ril.so:system/lib/libuca-ril.so \
     vendor/pantech/ef52l/proprietary/lib/libuca-ril-qmi.so:system/lib/libuca-ril-qmi.so \
+    vendor/pantech/ef52l/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/pantech/ef52l/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/pantech/ef52l/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/pantech/ef52l/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/pantech/ef52l/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/pantech/ef52l/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/pantech/ef52l/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/pantech/ef52l/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/pantech/ef52l/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/pantech/ef52l/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/pantech/ef52l/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/pantech/ef52l/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -91,27 +105,36 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/pantech/ef52l/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/pantech/ef52l/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/pantech/ef52l/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
+    vendor/pantech/ef52l/proprietary/lib/libqctdspsreg.so:system/lib/libqctdspsreg.so \
+    vendor/pantech/ef52l/proprietary/lib/libqctdspstest.so:system/lib/libqctdspstest.so \
     vendor/pantech/ef52l/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/pantech/ef52l/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/pantech/ef52l/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/pantech/ef52l/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/pantech/ef52l/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/pantech/ef52l/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/pantech/ef52l/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/pantech/ef52l/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/pantech/ef52l/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/pantech/ef52l/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/pantech/ef52l/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/pantech/ef52l/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/pantech/ef52l/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/pantech/ef52l/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/pantech/ef52l/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/pantech/ef52l/proprietary/lib/libqmissa.so:system/lib/libqmissa.so \
     vendor/pantech/ef52l/proprietary/lib/libdiagdpl.so:system/lib/libdiagdpl.so \
-    vendor/pantech/ef52l/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/pantech/ef52l/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/pantech/ef52l/proprietary/lib/libualutil.so:system/lib/libualutil.so \
     vendor/pantech/ef52l/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
+    vendor/pantech/ef52l/proprietary/lib/libualutil.so:system/lib/libualutil.so \
+    vendor/pantech/ef52l/proprietary/lib/librmp.so:system/lib/librmp.so \
+    vendor/pantech/ef52l/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
+    vendor/pantech/ef52l/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/pantech/ef52l/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
+    vendor/pantech/ef52l/proprietary/lib/liboem_ssa.so:system/lib/liboem_ssa.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libepdsp.so:system/vendor/lib/libepdsp.so \
+    vendor/pantech/ef52l/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/pantech/ef52l/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/pantech/ef52l/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
+    vendor/pantech/ef52l/proprietary/lib/libvendor_aka.so:system/lib/libvendor_aka.so \
     vendor/pantech/ef52l/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/pantech/ef52l/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/pantech/ef52l/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
@@ -121,6 +144,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/pantech/ef52l/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/pantech/ef52l/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/pantech/ef52l/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
+    vendor/pantech/ef52l/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
+    vendor/pantech/ef52l/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/pantech/ef52l/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/pantech/ef52l/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/pantech/ef52l/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -135,17 +163,18 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
-    vendor/pantech/ef52l/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/pantech/ef52l/proprietary/lib/libpantech_qcci.so:system/lib/libpantech_qcci.so \
     vendor/pantech/ef52l/proprietary/lib/libpantech_wifi_mac_backup.so:system/lib/libpantech_wifi_mac_backup.so \
     vendor/pantech/ef52l/proprietary/lib/libpantech_wifi_mac_rw.so:system/lib/libpantech_wifi_mac_rw.so \
-    vendor/pantech/ef52l/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/pantech/ef52l/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/pantech/ef52l/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/pantech/ef52l/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/pantech/ef52l/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
+    vendor/pantech/ef52l/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+    vendor/pantech/ef52l/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/pantech/ef52l/proprietary/lib/libsky_rawdata.so:system/lib/libsky_rawdata.so \
     vendor/pantech/ef52l/proprietary/lib/libskytestclient.so:system/lib/libskytestclient.so \
     vendor/pantech/ef52l/proprietary/lib/libsky_access_nand.so:system/lib/libsky_access_nand.so \
@@ -161,4 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libsky_rftest.so:system/lib/libsky_rftest.so \
     vendor/pantech/ef52l/proprietary/lib/libsky_wifi.so:system/lib/libsky_wifi.so \
     vendor/pantech/ef52l/proprietary/lib/libyas530.so:system/lib/libyas530.so \
-    vendor/pantech/ef52l/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
+    vendor/pantech/ef52l/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
