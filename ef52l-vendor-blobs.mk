@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/pantech/ef52l/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/pantech/ef52l/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/pantech/ef52l/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/pantech/ef52l/proprietary/bin/cnd:system/bin/cnd \
     vendor/pantech/ef52l/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/pantech/ef52l/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
