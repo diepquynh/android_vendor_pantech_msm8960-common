@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/ef52l/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/ef52l/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/pantech/ef52l/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/pantech/ef52l/proprietary/bin/thermald:system/bin/thermald \
     vendor/pantech/ef52l/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/pantech/ef52l/proprietary/bin/qmuxd:system/bin/qmuxd \
