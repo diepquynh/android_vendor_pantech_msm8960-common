@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/ef52l/proprietary/bin/rild:system/bin/rild \
     vendor/pantech/ef52l/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/pantech/ef52l/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef52l/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -60,9 +59,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/pantech/ef52l/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef52l/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/pantech/ef52l/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -71,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/pantech/ef52l/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/pantech/ef52l/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
     vendor/pantech/ef52l/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/pantech/ef52l/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/pantech/ef52l/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
