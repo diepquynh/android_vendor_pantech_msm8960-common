@@ -52,8 +52,20 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef52l/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
+    vendor/pantech/ef52l/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/pantech/ef52l/proprietary/lib/libmm-abl-oem..so:system/lib/libmm-abl-oem.so \
+    vendor/pantech/ef52l/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/pantech/ef52l/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/pantech/ef52l/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/pantech/ef52l/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/pantech/ef52l/proprietary/lib/libmm-color-convertor_jb.so:system/lib/libmm-color-convertor_jb.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/pantech/ef52l/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/pantech/ef52l/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/pantech/ef52l/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/pantech/ef52l/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -94,6 +106,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/pantech/ef52l/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/pantech/ef52l/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/pantech/ef52l/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -194,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libsky_rftest.so:system/lib/libsky_rftest.so \
     vendor/pantech/ef52l/proprietary/lib/libsky_wifi.so:system/lib/libsky_wifi.so \
     vendor/pantech/ef52l/proprietary/lib/libyas530.so:system/lib/libyas530.so \
-    vendor/pantech/ef52l/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/pantech/ef52l/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
