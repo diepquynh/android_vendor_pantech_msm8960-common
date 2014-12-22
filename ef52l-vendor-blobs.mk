@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef52l/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/ef52l/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
-    vendor/pantech/ef52l/proprietary/lib/libmm-abl-oem..so:system/lib/libmm-abl-oem.so \
+    vendor/pantech/ef52l/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/pantech/ef52l/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/pantech/ef52l/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/pantech/ef52l/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
