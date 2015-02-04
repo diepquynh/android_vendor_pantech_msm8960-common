@@ -215,3 +215,4 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/pantech/ef52l/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
