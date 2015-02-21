@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/bin/cnd:system/bin/cnd \
     vendor/pantech/ef50l/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/pantech/ef50l/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/pantech/ef50l/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/pantech/ef50l/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/ef50l/proprietary/bin/rild:system/bin/rild \
     vendor/pantech/ef50l/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -101,10 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/pantech/ef50l/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/pantech/ef50l/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/pantech/ef50l/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/pantech/ef50l/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/pantech/ef50l/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/pantech/ef50l/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
