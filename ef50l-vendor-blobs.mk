@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/ef50l/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/ef50l/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/pantech/ef50l/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/pantech/ef50l/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/pantech/ef50l/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/pantech/ef50l/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -97,13 +98,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/pantech/ef50l/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/pantech/ef50l/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/pantech/ef50l/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/pantech/ef50l/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/pantech/ef50l/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/pantech/ef50l/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/pantech/ef50l/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/pantech/ef50l/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/pantech/ef50l/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/pantech/ef50l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
@@ -211,4 +213,3 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
-    vendor/pantech/ef52l/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
