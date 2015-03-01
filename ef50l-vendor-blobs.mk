@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef50l/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/pantech/ef50l/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/pantech/ef50l/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/pantech/ef50l/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/pantech/ef50l/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
