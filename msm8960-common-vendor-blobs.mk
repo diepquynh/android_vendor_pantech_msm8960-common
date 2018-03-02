@@ -30,11 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/pantech/msm8960-common/proprietary/bin/sensorservice:system/bin/sensorservice \
-    vendor/pantech/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/pantech/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/pantech/msm8960-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/pantech/msm8960-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/pantech/msm8960-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/pantech/msm8960-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/pantech/msm8960-common/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/pantech/msm8960-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
