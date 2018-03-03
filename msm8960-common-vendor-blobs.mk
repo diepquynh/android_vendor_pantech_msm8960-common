@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/pantech/msm8960-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
@@ -84,8 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/pantech/msm8960-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/pantech/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libuca-ril.so:system/lib/libuca-ril.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libuca-ril-qmi.so:system/lib/libuca-ril-qmi.so \
     vendor/pantech/msm8960-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
