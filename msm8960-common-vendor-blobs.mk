@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/pantech/msm8960-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/pantech/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/pantech/msm8960-common/proprietary/bin/rild:system/bin/rild \
     vendor/pantech/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
