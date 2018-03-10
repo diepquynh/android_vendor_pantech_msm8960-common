@@ -40,10 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/pantech/msm8960-common/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/msm8960-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/pantech/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -56,8 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
@@ -71,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/pantech/msm8960-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
