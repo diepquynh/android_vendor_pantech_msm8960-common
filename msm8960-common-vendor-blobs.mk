@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/pantech/msm8960-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/pantech/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/pantech/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
