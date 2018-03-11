@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/pantech/msm8960-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/pantech/msm8960-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/pantech/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -135,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libepdsp.so:system/vendor/lib/libepdsp.so \
-    vendor/pantech/msm8960-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/pantech/msm8960-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/pantech/msm8960-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/pantech/msm8960-common/proprietary/lib/libvendor_aka.so:system/lib/libvendor_aka.so \
