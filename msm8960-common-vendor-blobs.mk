@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/pantech/msm8960-common/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/pantech/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/pantech/msm8960-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/pantech/msm8960-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
