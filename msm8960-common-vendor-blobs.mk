@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/pantech/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/pantech/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/pantech/msm8960-common/proprietary/lib/hw/sensors_native_hal.so:system/lib/hw/sensors_native_hal.so \
+    vendor/pantech/msm8960-common/proprietary/lib/hw/sensors_qcom.so:system/lib/hw/sensors_qcom.so \
     vendor/pantech/msm8960-common/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
